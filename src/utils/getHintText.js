@@ -20,9 +20,7 @@ function getHintText({
     // The initial item is a custom option.
     initialItem.customOption ||
     // One of the menu items is active.
-    activeItem ||
-    // There's already a selection.
-    !!selected.length
+    activeItem
   ) {
     return '';
   }
